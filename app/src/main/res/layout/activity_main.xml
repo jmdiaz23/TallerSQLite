@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+        <Button
+            android:id="@+id/btnOpcionRegistro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar Estudiante"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/btnConsultaIndividual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consultar Estudiante"
+            android:onClick="onClick"/>
+
+        <Button
+            android:id="@+id/btnConsultaLista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consultar Lista estudiante Usando ListView"
+            android:onClick="onClick"/>
+
+
+</LinearLayout>
